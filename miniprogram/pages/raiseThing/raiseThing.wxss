@@ -1,0 +1,85 @@
+@import"../../iconfont/iconfont.wxss";
+
+page{
+    background-color: #efeef4;
+}
+
+header{
+    display: flex;
+    padding-left: 60rpx;
+    padding-right: 60rpx;
+    justify-content: space-between;
+    height: 80rpx;
+    background-color: #fff;
+    line-height: 80rpx;
+}
+
+header #two{
+    font-weight: 900;
+}
+
+header #one,
+header #three{
+    font-weight: 600;
+    font-size: 30rpx;
+    color: #0ccb82;
+}
+
+.body{
+    margin-top: 25rpx;
+}
+
+textarea{
+    width: 100%;
+    height: 100%;
+}
+
+.body .miaoshu{
+    padding:20rpx 30rpx;
+    height: 200rpx;
+    background-color: #fff;
+    border-top: 1rpx rgb(161, 160, 160) solid;
+    border-bottom: 1rpx rgb(161, 160, 160) solid;
+}
+
+.carmera{
+    display: flex;
+    margin-bottom: 14rpx;
+    align-items: center;
+    height: 160rpx;
+    background-color: #fff;
+}
+
+.icon-camera{
+    display: inline-block;
+    margin-left: 30rpx;
+    width: 100rpx;
+    height: 100rpx;
+    background-color: #efeef4;
+    border-radius: 10rpx;
+    line-height: 100rpx;
+    text-align: center;
+    font-size: 50rpx;
+    color: grey;
+}
+
+.time,
+.location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7rpx;
+    padding-left: 30rpx;
+    padding-right: 200rpx;
+    height: 80rpx;
+    background-color: #fff;
+    font-size: 25rpx;
+}
+
+h2{
+    font-weight: 600;
+}
+
+input{
+    font-weight: 500;
+}

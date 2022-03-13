@@ -1,0 +1,103 @@
+@import"../prepare.wxss";
+@import"../../iconfont/iconfont.wxss";
+page{
+    position: relative;
+    background-color: #efeef4;
+}
+
+
+.header{
+    margin-bottom: 10rpx;
+    height: 80rpx;
+    background-color: #fff;
+}
+
+.header li{
+    display: inline-block;
+    height: 80rpx;
+    width: 170rpx;
+    text-align: center;
+    line-height: 80rpx;
+    font-weight: 700;
+}
+
+.body{
+    padding-top: 5rpx;
+    padding-left: 30rpx;
+    padding-right: 20rpx;
+}
+
+.body ul{
+    display: block;
+    width: 100%;
+}
+
+
+
+
+.body ul li{
+    display: block;
+    margin-top: 15rpx;
+    background-color: #fff;
+    border-radius: 15rpx;
+}
+
+.body ul h2{
+    display: block;
+    padding-top: 32rpx;
+    padding-left: 32rpx;
+    font-size: 27rpx;
+    font-weight: 600;
+}
+
+.body ul p{
+    display: block;
+    margin-top: 25rpx;
+    margin-left: 45rpx;
+    margin-right: 32rpx;
+    margin-bottom: 45rpx;
+}
+
+
+.body ul view{
+    margin:0 32rpx;
+    padding-right: 28rpx;
+    height: 60rpx;
+    border-top: 1px #efeef4 solid;
+    line-height: 60rpx;
+}
+
+.body ul li .time{
+    float: right;
+}
+
+.body ul li .userName{
+    float: left;
+    margin-left: 20rpx;
+}
+
+.body ul li image{
+    float: left;
+    margin-top: 8rpx;
+    width: 45rpx;
+    border-radius: 50%;
+}
+
+.pick{
+    display: none;
+}
+
+.icon-zengjia-cuxiantiao{
+    position: fixed;
+    right: 80rpx;
+    bottom: 80rpx;
+    width: 100rpx;
+    height: 100rpx;
+    background-color: #0ccb82;
+    border-radius: 50%;
+    font-size: 80rpx;
+    text-align: center;
+    color: #fff;
+    line-height: 100rpx;
+    font-weight:500;
+}

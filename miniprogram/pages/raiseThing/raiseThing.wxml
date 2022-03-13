@@ -1,0 +1,22 @@
+<header>
+    <view id="one" bindtap="onone">取消</view>
+    <view id="two">发布信息</view>
+    <view id="three">发布</view>
+</header>
+
+<view class="body">
+    <view class="miaoshu">
+        <textarea name="description" maxlength="-1" placeholder="物品描述"></textarea>
+    </view>
+    <view class="carmera">
+        <view class="iconfont icon-camera"></view>
+    </view>
+    <view class="time">
+        <h2>发送时间</h2>
+        <input type="text" placeholder="2022/02/22"/>
+    </view>
+    <view class="location">
+        <h2>地点信息</h2>
+        <input type="text" placeholder="主楼"/>
+    </view>
+</view>

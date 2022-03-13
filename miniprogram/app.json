@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/puzzleCarCircle/puzzleCarCircle",
+    "pages/index/index",
+    "pages/pubMsgOfDriver/pubMsgOfDriver",
+    "pages/publishMsg/publishMsg",
+    "pages/courseDetail/courseDetail",
+    "pages/indexThing/indexThing",
+    "pages/detailThing/detailThing",
+    "pages/raiseThing/raiseThing",
+    "pages/my/my",
+    "pages/my/openSource",
+    "pages/my/storage",
+    "pages/my/about"
+  ],
+  "window": {
+    "backgroundColor": "#7A7A7A",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "咕咚校园",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/indexCar1.png",
+        "iconPath": "images/indexCar0.png",
+        "pagePath": "pages/puzzleCarCircle/puzzleCarCircle",
+        "text": "拼车圈"
+      },
+      {
+        "selectedIconPath": "images/indexThing1.png",
+        "iconPath": "images/indexThing0.png",
+        "pagePath": "pages/indexThing/indexThing",
+        "text": "失物招领"
+      },
+      {
+        "selectedIconPath": "images/indexMy1.png",
+        "iconPath": "images/indexMy0.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+@import"../prepare.wxss";
+@import"../../iconfont/iconfont.wxss";
+
+
+page{
+    position: relative;
+}
+
+.header{
+    display: flex;
+    height: 120rpx;
+}
+
+.header image{
+    width: 100%;
+}
+
+
+
+.userimg{
+    margin-top: 20rpx;
+    margin-left: 15rpx;
+    margin-right: 16rpx;
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    padding-top: 28rpx;
+}
+
+.user h2{
+    margin-bottom: 6rpx;
+    font-size: 40rpx;
+    color: rgb(73, 73, 73);
+}
+
+
+/* 详情 */
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body p{
+    display: block;
+    margin-bottom: 30rpx;
+}
+
+.body image{
+    width: 94%;
+    margin-bottom: 70rpx;
+    
+}
+
+
+
+/* comment */
+.comment{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30rpx;
+    width: 100%;
+    height: 100rpx;
+    background-color: #fff;
+    border-top: 1rpx solid rgb(192, 189, 189);
+}
+
+.comment .left{
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20rpx;
+}
+
+.comment input{
+    margin-left: 4rpx;
+    width: 470rpx;
+    height: 60rpx;
+    font-size: 28rpx;
+}
+
+.icon-huabi{
+    margin-left: 10rpx;
+    margin-right: 5rpx;
+    color: grey;
+}
+
+.comment .right{
+    position: relative;
+   width: 120rpx;
+}
+
+.icon-pinglun{
+    font-size: 60rpx;
+    color: black;
+}
+
+.comment .right .num{
+    position: absolute;
+    left: 42rpx;
+    top:1rpx;
+    width: 30rpx;
+    height: 20rpx;
+    background-color: rgb(247, 22, 22);
+    border-radius: 20rpx;
+    font-size: 20rpx;
+    line-height: 20rpx;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/* body */
+.body{
+    padding: 40rpx 30rpx 0 30rpx;
+}
+
+
+/* commentarea */
+.commentarea{
+    position: fixed;
+    bottom: -900rpx;
+    display: block;
+    z-index: 2;
+    width: 100%;
+    height: 900rpx;
+    background-color: #fff;
+}
+
+.commentarea .top{
+    display: flex;
+    justify-content: space-between;
+    padding:10rpx 20rpx;
+}
+
+.commentarea .top .left{
+    display: flex;
+}
+
+.icon-cha{
+    padding-top: 6rpx;
+}
+
+.icon-xiangxiapaixu{
+    font-size: 50rpx;
+}
+
+.commentarea .commentnum{
+    margin-left: 30rpx;
+}
+
+.commentarea .ping{
+    padding-left: 30rpx;
+    height: 50rpx;
+    background-color: #efeef4;
+    line-height: 50rpx;
+}
+
+.lun li{
+    display: flex;
+}
+
+.lun h3{
+    display: block;
+    padding-left: 100rpx;
+    margin-top: 50rpx;
+}

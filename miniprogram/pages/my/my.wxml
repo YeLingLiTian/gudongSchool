@@ -1,0 +1,47 @@
+<navigationBar id="navigationBar" title="我的" back="{{fase}}"></navigationBar>
+
+<view class="header">
+  <open-data type="userAvatarUrl" class="avatar" mode="aspectFit"></open-data>
+  <view class="info">
+    <open-data type="userNickName" class="nickname" bindtap="OnTapName"></open-data>
+  </view>
+</view>
+<view class="cu-list menu sm-border">
+  
+  <view class="cu-item arrow">
+    <navigator class="content" url="storage" hover-class="none">
+      <text class="iconfont icon-storage text-blue"></text>
+      <text>本地存储</text>
+    </navigator>
+  </view>
+  <view class="cu-item arrow">
+    <navigator class="content" url="./openSource" hover-class="none">
+      <text class="iconfont icon-open-source text-red"></text>
+      <text>开源说明</text>
+    </navigator>
+  </view>
+  <view wx:if="{{insider}}" class="cu-item">
+    <view class="content">
+      <text class="iconfont icon-beta text-orange"></text>
+      <text>内测权限</text>
+    </view>
+    <text class="text-grey">{{insiderText}}</text>
+  </view>
+  <view class="cu-item arrow" bindtap="toFeedback">
+    <view class="content">
+      <text class="iconfont icon-feedback text-pink"></text>
+      <text>反馈</text>
+    </view>
+  </view>
+  <view class="cu-item arrow">
+    <navigator class="content" url="./about" hover-class="none">
+      <text class="iconfont icon-about text-mauve"></text>
+      <text>关于</text>
+    </navigator>
+    <text class="text-grey">v{{version}}</text>
+  </view>
+  <view class="cu-item" bindtap="copyOpenId">
+    
+    <text class="text-grey text-sm">{{openId}}</text>
+  </view>
+</view>

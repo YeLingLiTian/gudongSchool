@@ -1,0 +1,65 @@
+
+
+<!-- 头像，昵称 -->
+<view class="header">
+    <view class="userimg">
+        <image src="{{userimg}}" mode="widthFix"/>
+    </view>
+    <view class="user">
+        <h2>{{userName}}</h2>
+        <span class=".ziti">{{time}}</span>
+    </view>
+</view>
+
+
+<!-- 详情 -->
+<view class="body">
+    <p>今早在去主楼上课的路上，捡到一带有小猫的钥匙扣，图片附下，失主可联系13756473456，也可私信联系</p>
+    <image src="../../images/tx2.jpg" mode="widthFix"/>
+    <image src="../../images/tx3.jpg" mode="widthFix"/>
+</view>
+
+
+<!-- 评论区 -->
+<view class="commentarea" animation="{{ani1}}">
+    <view class="top">
+        <view class="left">
+            <view class="iconfont icon-cha" bindtap="hide"></view>
+            <view class="commentnum">全部<span>{{commentNumber}}</span>条评论</view>
+        </view>    
+        <view class="iconfont icon-xiangxiapaixu"></view>
+    </view>
+    <view class="ping .ziti">评论({{commentNumber}})</view>
+    <view class="lun">
+        
+            <li>
+                <view class="userimg">
+                    <image src="{{userimg}}" mode="widthFix"/>
+                </view>
+                <view class="user">
+                    <h2>{{userName}}</h2>
+                    <span class=".ziti">{{time}}</span>
+                </view>
+            </li>
+            <h3>上边是不是还有个鲨鱼挂件</h3>
+           
+    </view>
+</view>
+
+
+<!-- 评论栏 -->
+<view class="comment">
+    <view class="left">
+        <view class="iconfont icon-huabi"></view>
+        <input type="text" placeholder="评论一下吧~"/>
+    </view>
+    <view class="right">
+        <view class="iconfont icon-pinglun" bindtap="show"></view>
+        <view class="num">{{commentNumber}}</view>
+    </view>
+</view>
+
+
+
+
+

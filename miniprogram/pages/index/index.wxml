@@ -1,0 +1,16 @@
+<view style="background-color: #45b97c; width: 750rpx; height: 364rpx; display: block; box-sizing: border-box">
+</view>
+<image src="../../images/gudong.png" style="position: relative; left: 315rpx; top: -265rpx; width: 122rpx; height: 120rpx; display: inline-block; box-sizing: border-box"></image>
+<text style="color: white; position: relative; left: 183rpx; top: -218rpx">咕咚校园</text>
+<view class="section">
+    <input style="width: 523rpx; height: 80rpx; display: block; box-sizing: border-box; position: relative; left: 109rpx; top: -47rpx"  class="input" placeholder-style="font-size:15px" 
+    placeholder="请输入学号/手机号" auto-focus bindinput ="userNameInput"/>
+    <view style="background-color: black; height: 4rpx; width: 550rpx; display: block; box-sizing: border-box; position: relative; left: 97rpx; top: -36rpx"></view>
+</view>
+<view class="section" style="margin-top: 50rpx;">
+    <input style="width: 523rpx; height: 80rpx; display: block; box-sizing: border-box; position: relative; left: 109rpx; top: -47rpx"  class="input" placeholder-style="font-size:15px" 
+    placeholder="请输入学号/手机号" auto-focus bindinput="passWdInput"/>
+    <view style="background-color: black; height: 4rpx; width: 550rpx; display: block; box-sizing: border-box; position: relative; left: 97rpx; top: -36rpx"></view>
+</view>
+
+<button bindtap="login"  type="primary" style="width: 500rpx;background-color: #45b97c;">登录</button>

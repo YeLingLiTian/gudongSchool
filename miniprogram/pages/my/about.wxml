@@ -1,0 +1,22 @@
+<view>
+    <view class="aboutPage">
+        <image mode="aspectFit" src="../../images/about/icon.png"></image>
+        <view class="aboutText">
+            <view>
+                <text style="font-size:60rpx;color:#2d8cf0">咕咚校园</text>
+            </view>
+            <view>
+                <text style="font-size:30rpx;color:#1c2438">交流论坛</text>
+            </view>
+            <view>
+                <text style="font-size:20rpx;color:#80848f">版本号：v0.0.1</text>
+            </view>
+            <view style="margin-top: 20rpx;">
+                <text style="font-size:20rpx;color:#80848f">双创课</text>
+            </view>
+            <view style="width:70%;">
+                <text style="font-size:25rpx;color:#495060">咕咚校园是一套集失物招领处、问答交流墙、拼车交流圈等功能于一体的服务管理系统，是一款性能优越、界面友好的微信小程序。该小程序主要目的是解决大学生间的常见问题，解决找寻失物、失主难的问题，以及提高司机找人和学生找车的效率。</text>
+            </view>
+        </view>
+    </view>
+</view>

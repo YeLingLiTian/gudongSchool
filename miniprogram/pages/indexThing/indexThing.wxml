@@ -1,0 +1,98 @@
+
+<view class="header">
+    <ul>
+      <li bindtap="onlose" style="color:{{losecolor}}">失物</li>
+      <li bindtap="onpick" style="color:{{pickcolor}}">拾物</li>
+    </ul>
+</view>
+
+<!-- 拾物 -->
+<view class="pick body" style="display: {{pick}};">
+    <ul>
+      <li bindtap="onli">
+        <h2>拾物</h2>
+        <p class="ziti">在主楼捡到一把钥匙</p>
+        <view>
+          <image mode="widthFix" src="../../images/co1P911015942-0-9.jpg" alt=""/>
+          <span class="userName ziti">哈哈哈哈哈哈</span>
+          <span class="time ziti">2020/04/20 12:02:06</span>
+        </view>
+      </li>
+      <li bindtap="onli">
+        <h2>拾物</h2>
+        <p class="ziti">在操场上捡到一个手机壳，请联系134573423XXX</p>
+        <view>
+          <image mode="widthFix" src="../../images/tx3.jpg" alt=""/>
+          <span class="userName ziti">洋洋</span>
+          <span class="time ziti">2020/04/20 12:02:06</span>
+        </view>
+      </li>
+      <li bindtap="onli">
+        <h2>拾物</h2>
+        <p class="ziti">备注信息备注信息备注信息备注信息备注信息备注信息备注信息备注信息备注信息...</p>
+        <view>
+          <image mode="widthFix" src="../../images/tx4.jpg" alt=""/>
+          <span class="userName ziti">小花</span>
+          <span class="time ziti">2020/04/20 12:02:06</span>
+        </view>
+      </li>
+      <li bindtap="onli">
+        <h2>拾物</h2>
+        <p class="ziti">备注信息备注信息备注信息备注信息备注信息备注信息备注信息备注信息备注信息...</p>
+        <view>
+          <image mode="widthFix" src="../../images/tx2.jpg" alt=""/>
+          <span class="userName ziti">小美</span>
+          <span class="time ziti">2020/04/20 12:02:06</span>
+        </view>
+      </li>
+    </ul>
+</view>
+
+
+<!-- 失物 -->
+<view class="lose body" style="display: {{lose}};">
+    <ul>
+      <li bindtap="onli">
+        <h2>失物</h2>
+        <p class="ziti">在主楼丢了一把钥匙</p>
+        <view>
+          <image mode="widthFix" src="../../images/co1P911015942-0-9.jpg" alt=""/>
+          <span class="userName ziti">哈哈哈哈哈哈</span>
+          <span class="time ziti">2020/04/20 12:02:06</span>
+        </view>
+      </li>
+      <li bindtap="onli">
+        <h2>失物</h2>
+        <p class="ziti">在操场上丢了一个手机壳，请联系134573423XXX</p>
+        <view>
+          <image mode="widthFix" src="../../images/tx1.jpg" alt=""/>
+          <span class="userName ziti">洋洋</span>
+          <span class="time ziti">2020/04/20 12:02:06</span>
+        </view>
+      </li>
+      
+      <li bindtap="onli">
+        <h2>失物</h2>
+        <p class="ziti">备注信息备注信息备注信息备注信息备注信息备注信息备注信息备注信息备注信息...</p>
+        <view>
+          <image mode="widthFix" src="../../images/tx2.jpg" alt=""/>
+          <span class="userName ziti">小花</span>
+          <span class="time ziti">2020/04/20 12:02:06</span>
+        </view>
+      </li>
+      
+      <li bindtap="onli">
+        <h2>失物</h2>
+        <p class="ziti">备注信息备注信息备注信息备注信息备注信息备注信息备注信息备注信息备注信息...</p>
+        <view>
+          <image mode="widthFix" src="../../images/tx3.jpg" alt=""/>
+          <span class="userName ziti">小美</span>
+          <span class="time ziti">2020/04/20 12:02:06</span>
+        </view>
+      </li>
+    </ul>
+</view>
+
+<!-- 加号 -->
+<view class="iconfont icon-zengjia-cuxiantiao" bindtap="onjiahao"></view>
+
